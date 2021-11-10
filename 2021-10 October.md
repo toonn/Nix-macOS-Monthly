@@ -6,4 +6,4 @@ After finding out the LLVM bump couldn't make it into the next release I shifted
 
 In other news, [RFC 112](https://github.com/NixOS/rfcs/pull/112) is proposing to demote x86_64 Darwin from Tier 2 to Tier 3 platform. There is no intent to decrease the support for Darwin but this would be a more honest reflection of the current status. Darwin CI is regularly running into problems where builders are idle but the queue runner isn't scheduling jobs for them. The main problem this causes is that some channel updates depend on a set of Darwin jobs passing and this ends up delaying the channel advance.
 
-Nix 2.4 was released recently and it comes with installer improvements, especially on Darwin. Unfortunately it does have a [hard to debug issue](https://github.com/NixOS/nix/issues/3605) on Darwin.
+Nix 2.4 was released recently and it comes with installer improvements, especially on Darwin. Unfortunately it does have a [hard to debug issue](https://github.com/NixOS/nix/issues/3605) on Darwin. I'll be trying to find a way to reproduce this issue but extra eyes are needed.
