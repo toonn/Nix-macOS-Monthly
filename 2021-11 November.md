@@ -2,10 +2,10 @@
 
 At the start of the month I was spending time on getting the SDK bump to work
 on LLVM 7, this was not fruitful and the only reason was making the 21.11
-cut-off deadline so I dropped it. Instead I finished up work on the LLVM 11
-bump, which has been merged to staging. Stabilizing is ongoing on staging-next
-to shake out any remaining problems, like [breaking MariaDB because it was
-updated](https://github.com/NixOS/nixpkgs/pull/149096).
+cut-off deadline so I dropped it. Instead I helped out with ZHF and finished up
+work on the LLVM 11 bump, which has been merged to staging. Stabilizing is
+ongoing on staging-next to shake out any remaining problems, like [breaking
+MariaDB because it was updated](https://github.com/NixOS/nixpkgs/pull/149096).
 
 [Domen's call for Darwin
 maintainers](https://github.com/NixOS/nixpkgs/issues/145230) had a good
