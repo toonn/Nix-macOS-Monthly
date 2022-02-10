@@ -1,5 +1,6 @@
 # January 2022
 
+This month I focused on the SDK.
 I set out to substitute configd with the SystemConfiguration framework from the
 SDK. This means the framework and its dependencies need to build from the
 bootstrap-tools so I had to add `print-reexports` to the bootstrap tarball.
