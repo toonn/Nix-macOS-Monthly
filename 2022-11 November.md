@@ -1,0 +1,7 @@
+# November 2022
+
+I finished implementing the old-style macros ([comparison to trunk](https://hydra.nixos.org/eval/1785357?compare=1782186)) and [GCC and GFortran (except for 6 and older) now build](https://hydra.nixos.org/build/198694894). There are still many failing builds, some of these seem related to the builds running under Rosetta2 but there are other problems. RustC is failing to build (a [bootstrap stage compiler is exiting unsuccessfully](https://hydra.nixos.org/build/198696019/nixlog/1)), Python's [requests is failing to build due to CFFI](https://hydra.nixos.org/build/198685586/nixlog/1) (Could this be related to [#187636](https://github.com/NixOS/nixpkgs/pull/187636), since these builds are running under Rosetta2 on aarch64-darwin?), Libepoxy is another common dependency [failing due to a segmentation violation](https://hydra.nixos.org/build/198709661/nixlog/1). So lots of issues to figure out, if anyone feels like they may be able to help, feel free to reach out.
+
+This month marks an end to my Nix :heart: macOS sponsorship. I'm grateful for having had the opportunity to focus on Nixpkgs development for macOS. Going forward I won't be able to spend as much time on this but I do want to finish the bump. If you're short on time but want to help out the situation for Nix on macOS, consider contributing financially to the [Open Collective](https://opencollective.com/nix-macos).
+
+Happy Holidays and a great 2023 to everyone!
