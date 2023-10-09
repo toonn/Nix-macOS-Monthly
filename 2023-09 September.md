@@ -1,4 +1,4 @@
-# July 2023
+# September 2023
 
 [The stdenv LLVM bump](https://github.com/NixOS/nixpkgs/issues/234710) is still in need of more reviews. @reckenrode is also working on [fixing cross-compilation from aarch64-darwin to x86_64-darwin](https://github.com/NixOS/nixpkgs/pull/256590).
 
